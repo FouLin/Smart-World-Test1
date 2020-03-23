@@ -244,9 +244,11 @@ html body {
     top: 250px;
 
 }
-.about > div > div{
+
+.about > div > div {
     text-align: left;
 }
+
 .Work {
     text-align: center;
     position: absolute;
@@ -531,7 +533,7 @@ p {
     position: absolute;
     top: 6238px;
     width: 100%;
-    height: 828px;
+    height: 628px;
     background-color: #0f7bff;
 }
 
@@ -629,9 +631,11 @@ p {
     margin: 0 auto;
     top: 120px;
 }
-.news{
+
+.news {
     display: inline-flex;
 }
+
 .news > div {
     position: relative;
     top: 155px;
@@ -664,25 +668,29 @@ p {
     margin: 0;
     top: 24px;
 }
+
 .PH1 {
     margin: 0;
     width: 165px;
     height: 120px;
     background: url("../img/Place_image12.png");
 }
+
 .PH2 {
     margin: 0;
     width: 165px;
     height: 120px;
     background: url("../img/Place_image21.png");
 }
+
 .PH3 {
     margin: 0;
     width: 165px;
     height: 120px;
     background: url("../img/Place_image31.png");
 }
-.news > div:last-child > div > div{
+
+.news > div:last-child > div > div {
     position: relative;
     margin-right: 30px;
 }
@@ -693,9 +701,11 @@ p {
     margin-bottom: 40px;
     text-align: left;
 }
+
 .news > div:last-child {
     width: 48em;
 }
+
 .news > div:last-child > div > div > h5 {
     /* Style for "The master" */
     width: 410px;
@@ -708,6 +718,7 @@ p {
     margin: 0;
 
 }
+
 .news > div:last-child > div > div > p {
     /* Style for "Lorem ipsu" */
     width: 350px;
@@ -718,47 +729,49 @@ p {
     line-height: 27px;
     margin-top: 20px;
 }
-.T-30D > div
-{
+
+.T-30D > div {
     text-align: left;
     position: relative;
     margin: 0 auto;
     display: inline-flex;
 }
-.T-30D > div > div:first-child
-{
+
+.T-30D > div > div:first-child {
     position: relative;
     top: 90px;
     margin-right: 162px;
 }
-.T-30D > div > div:last-child
-{
+
+.T-30D > div > div:last-child {
     position: relative;
     top: 145px;
 }
 
-.T-30D > div > div:last-child > a{
+.T-30D > div > div:last-child > a {
     border-radius: 5px;
     background-color: #0f7bff;
-    padding:30px 85px;
+    padding: 30px 85px;
     color: #ffffff;
     font-size: 16px;
     line-height: 27px;
     margin: 0 auto;
     text-align: center;
 }
-.footer > div > div:first-child > h1
-{
+
+.footer > div > div:first-child > h1 {
     margin: 0;
     padding: 0;
     left: 0;
     top: 130px;
 }
-.footer > div > div:first-child > div{
+
+.footer > div > div:first-child > div {
     position: relative;
     top: 196px;
 }
-.footer > div > div:first-child > div > input:first-child{
+
+.footer > div > div:first-child > div > input:first-child {
     /* Style for "bg" */
     background-color: #0f7bff;
     width: 361px;
@@ -773,6 +786,7 @@ p {
     font-weight: 400;
     line-height: 27px;
 }
+
 .footer > div > div:first-child > div > input::-webkit-input-placeholder {
     color: #ffffff !important;
     font-family: Quicksand !important;
@@ -780,7 +794,8 @@ p {
     font-weight: 400 !important;
     line-height: 27px !important;
 }
-.footer > div > div:first-child > div > input:last-child{
+
+.footer > div > div:first-child > div > input:last-child {
     position: relative;
     top: -.5px;
     left: -6px;
@@ -797,13 +812,67 @@ p {
     line-height: 27px;
     text-transform: uppercase;
 }
-.footer > div > div:last-child{
+
+.footer > div > div:last-child {
     width: 100%;
-    top: 35em;
+    top: 28em;
     position: relative;
-    display: inline-flex;
-    border-top: 10em;
     border-top: 2px solid #ffffff;
 }
 
+.footer > div > div:last-child > div > p {
+    /* Style for "© 2018 Cop" */
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
 
+}
+
+.footer > div > div:last-child > div {
+    display: inline-flex;
+}
+
+.footer > div > div:last-child > div:first-child > p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.footer > div > div:last-child > div:first-child > p:first-child {
+    margin-right: 195px;
+}
+
+.footer > div > div:last-child > div:first-child > p:not(:first-child) {
+    margin-left: 50px;
+}
+
+.soc > a {
+    position: relative;
+    top: 5px;
+    margin-left: 15px;
+}
+
+.soc {
+    position: relative;
+    left: 5em;
+}
+
+#twitter {
+    top: 7px;
+}
+
+#yt {
+    top: 6px;
+}
+
+.footer > div > div:last-child > a {
+    position: relative;
+    top: 10px;
+    left: 300px;
+}
+
+html {
+    overflow-x: hidden;
+}
