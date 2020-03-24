@@ -108,11 +108,16 @@ button:hover {
     top: -210px;
 }
 
-.shape {
-    width: 100%;
+.shape{
     position: relative;
-    top: -6.7em;
-    background: url(../img/Shape.png);
+    text-align: center;
+}
+.shape > div {
+    margin: 0 auto;
+    width: 1920px;
+    position: relative;
+    top: -8.3em;
+    background: url(../img/Shape.png) center no-repeat;
     height: 1114px;
     z-index: -1;
 }
