@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700&display=swap&subset=latin-ext");
 
-nav > a > span {
-    font-family: 'Open Sans';
+* {
+    font-family: 'Quicksand' !important;
 }
 
 body {
-    font-family: 'Open Sans';
     margin: 0;
 }
 
@@ -20,7 +19,6 @@ h1 {
     font-size: 36px;
     font-weight: 700;
     line-height: 24px;
-
     position: relative;
     background-color: #0f7bff;
     border-radius: 0 0 1em 1em;
@@ -43,8 +41,7 @@ a:hover {
 nav {
     position: absolute;
     right: 140px;
-    top: 1em;
-
+    top: 0;
 }
 
 button {
@@ -108,10 +105,11 @@ button:hover {
     top: -210px;
 }
 
-.shape{
+.shape {
     position: relative;
     text-align: center;
 }
+
 .shape > div {
     margin: 0 auto;
     width: 1920px;
@@ -127,6 +125,10 @@ button:hover {
     display: flex;
     margin: 0 auto;
     justify-content: center;
+}
+
+h4, h2, h3, h5 {
+    color: #333333;
 }
 
 .bg {
@@ -195,7 +197,6 @@ html body {
 }
 
 .about > div > h3 {
-    /* Style for "Easy Messa" */
     width: 300px;
     height: 28px;
     color: #333333;
@@ -206,7 +207,6 @@ html body {
 }
 
 .about > div > div > p {
-    /* Style for "Lorem ipsu" */
     width: 544px;
     height: 97px;
     color: #929292;
@@ -221,7 +221,6 @@ html body {
 
 .about > div > div > a {
     position: relative;
-    /* Style for "Read More" */
     top: 38px;
     margin: 0;
     width: 81px;
@@ -265,7 +264,6 @@ html body {
 
 .Work > p {
     position: relative;
-    /* Style for "Lorem ipsu" */
     top: 150px;
     width: 731px;
     height: 97px;
@@ -277,8 +275,6 @@ html body {
 }
 
 h3 {
-    /* Style for "How Does I" */
-
     height: 23px;
     color: #333333;
     font-family: Quicksand;
@@ -379,8 +375,6 @@ h3 {
     width: 100%;
     height: 836px;
     background-color: #ffffff;
-
-
 }
 
 .pp > div {
@@ -410,7 +404,7 @@ h3 {
 .pp > div > div:not(:first-child) {
     text-align: center;
     width: 360px;
-    height: 616px;
+    height: 576px;
     box-shadow: 0 0 68px rgba(165, 165, 165, 0.25);
     border-radius: 5px;
     background-color: #ffffff;
@@ -428,7 +422,6 @@ p {
 }
 
 .line {
-    /* Style for "Line" */
     width: 165px;
     height: 1px;
     background-color: #e0e0e0;
@@ -436,7 +429,6 @@ p {
 }
 
 .pp > div > div > h4 {
-    /* Style for "Standard" */
     color: #333333;
     font-family: Quicksand;
     font-size: 18px;
@@ -462,25 +454,19 @@ p {
 }
 
 .standard > div > span {
-    /* Style for "$19.00" */
     color: #0f7bff;
     font-family: Quicksand;
     font-size: 32px;
     font-weight: 500;
     line-height: 36px;
-    /* Text style for "$" */
-
 }
 
 .premium > div > span {
-    /* Style for "$19.00" */
     color: #0f7bff;
     font-family: Quicksand;
     font-size: 32px;
     font-weight: 500;
     line-height: 36px;
-    /* Text style for "$" */
-
 }
 
 .premium > div {
@@ -588,7 +574,7 @@ p {
     position: relative;
     width: 17px;
     height: 15px;
-    background-image: url(../img/Twitter_icon.png);
+    background: url(../img/Twitter_icon.png) no-repeat;
     left: 313px;
     top: 40px;
 }
@@ -627,7 +613,6 @@ p {
 }
 
 .LNFU > p {
-    /* Style for "Lorem ipsu" */
     position: relative;
     width: 731px;
     height: 43px;
@@ -712,7 +697,6 @@ p {
 }
 
 .news > div:last-child > div > div > h5 {
-    /* Style for "The master" */
     width: 410px;
     height: 46px;
     color: #333333;
@@ -725,7 +709,6 @@ p {
 }
 
 .news > div:last-child > div > div > p {
-    /* Style for "Lorem ipsu" */
     width: 350px;
     height: 43px;
     color: #929292;
@@ -749,11 +732,13 @@ p {
 }
 
 .T-30D > div > div:last-child {
+
     position: relative;
     top: 145px;
 }
 
 .T-30D > div > div:last-child > a {
+    text-transform: uppercase;
     border-radius: 5px;
     background-color: #0f7bff;
     padding: 30px 85px;
@@ -785,7 +770,6 @@ p {
     border: 2px solid #ffffff;
     padding-left: 31px;
     color: #ffffff;
-    /* Style for "Enter Your" */
     font-family: Quicksand;
     font-size: 16px;
     font-weight: 400;
@@ -801,6 +785,7 @@ p {
 }
 
 .footer > div > div:first-child > div > input:last-child {
+    cursor: pointer;
     position: relative;
     top: -.5px;
     left: -6px;
@@ -809,7 +794,6 @@ p {
     border-radius: 0 30px 30px 0;
     border: white;
     background-color: #ffffff;
-    /* Style for "SUBSCRIBE" */
     color: #0f7bff;
     font-family: Quicksand;
     font-size: 16px;
@@ -881,8 +865,8 @@ p {
 html {
     overflow-x: hidden;
 }
-.sd
-{
+
+.sd {
     position: absolute;
     left: 50%;
     top: 60.5em;
@@ -891,9 +875,65 @@ html {
     height: 70px;
     z-index: 1000;
 }
-.sd > a
-{
+
+.sd > a {
     padding: 20px 40px;
     margin: 0;
     z-index: 1001;
 }
+
+.Montnly {
+    width: 165px;
+    height: 50px;
+    border-radius: 25px 0 0 25px;
+    background-color: #0f7bff;
+}
+
+.Montnly:hover {
+    width: 165px;
+    height: 50px;
+    border-radius: 25px 0 0 25px;
+    background-color: #ffffff;
+}
+
+.Yearly:hover {
+    width: 165px;
+    height: 50px;
+    border-width: 4px;
+    border-color: #0063dd;
+    border-radius: 0px 25px 25px 0px;
+    background-color: #ffffff;
+    color: #0063dd;
+}
+
+.Yearly {
+    width: 165px;
+    height: 50px;
+    border-radius: 0px 25px 25px 0px;
+    background-color: #0f7bff;
+}
+
+.pp_but {
+    position: absolute;
+    display: inline-flex;
+    text-align: center;
+}
+
+.pp_but > div > p:hover {
+    margin-top: 10px;
+    color: #0f7bff;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.pp_but > div > p {
+    margin-top: 10px;
+    color: #ffffff;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+}
+

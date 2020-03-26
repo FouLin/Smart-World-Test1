@@ -1,0 +1,230 @@
+h1 {
+    color: #0f7bff;
+    background-color: rgba(0, 0, 0, 0);
+}
+body{
+    text-align: center;
+}
+.nav-bar {
+    background-color: #f5fcfd;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+nav {
+    top: 0;
+}
+
+.OBP {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background-color: #f5fcfd;
+}
+
+.OBP > div > div:first-child > p, h2 {
+    text-align: left;
+}
+
+.OBP > div {
+    position: relative;
+    margin: 0 auto;
+    display: inline-flex;
+}
+
+.OBP > div > div:first-child > h2 {
+    /* Style for "Our Blog P" */
+    color: #333333;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.OBP > div > div:first-child > p {
+    /* Style for "Latest Inf" */
+    color: #333333;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.OBP > div > div:last-child {
+    width: 430px;
+    height: 430px;
+    background: url("../img/Image4.png") center no-repeat;
+}
+
+.OBP > div {
+    top: 70px;
+}
+
+.OBP > div > div:first-child {
+    position: relative;
+    top: 110px;
+    margin-right: 25em;
+}
+
+.main {
+    height: 2040px;
+    text-align: center;
+    top: 600px;
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.main > div {
+    top:80px;
+    position: relative;
+    margin: 0 auto;
+    display: inline-flex;
+}
+
+.main > div > div:first-child > div {
+    margin-top: 50px;
+    display: flex;
+    width: 750px;
+    height: 298px;
+    box-shadow: 0 0 76px #e9e9e9;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.main > div > div:first-child > div > div > p {
+    text-align: left;
+    width: 296px;
+    height: 67px;
+    color: #929292;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.main > div > div:first-child > div > div > h3:hover {
+    width: 315px;
+    height: 18px;
+    color: #0f7bff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.main > div > div:first-child {
+    margin-right: 30px;
+    position: relative;
+}
+
+.main > div > div:first-child > div > div > h3 {
+    width: 315px;
+    height: 18px;
+    color: #333333;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.main > div > div:last-child > div:first-child {
+    position: relative;
+    margin-top: 50px;
+    display: inline-flex;
+}
+
+.main > div > div:last-child > div > input:first-child {
+    padding: 0 3em;
+    width: 260px;
+    height: 64px;
+    box-shadow: 1px 11px 13px rgba(151, 151, 151, 0.19);
+    border-radius: 32px;
+    border: 1px solid #dcdcdc;
+    background-color: #ffffff;
+}
+.main > div > div:last-child > div > input:last-child {
+    /* Style for "bg" */
+    width: 82px;
+    height: 65px;
+    box-shadow: 1px 11px 13px rgba(151, 151, 151, 0.19);
+    border-radius: 0 32px 32px 0;
+    background-color: #0f7bff;
+    cursor: pointer;
+    position: relative;
+    top: -.5px;
+    left: -6px;
+    border: white;
+    color: #0f7bff;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-transform: uppercase;
+    left: -60px;
+}
+.main > div > div:first-child > div > div > a {
+    position: relative;
+    margin: 0;
+    top: 50px;
+    left: -82px;
+}
+.main > div > div:first-child > div > div > div {
+    background: url("../img/3-layers.png") no-repeat;
+    display: flex;
+}
+.main > div > div:first-child > div > div > div > p {
+    margin-right: 54px;
+}
+.main > div > div:first-child > div > div:last-child
+{
+
+    margin-left: 30px;
+}
+.main > div > div:first-child > div > div > div > p:first-child {
+    position: relative;
+    top: -3px;
+    left: 25px;
+}
+.main > div > div:first-child > div > div > div > p:last-child {
+    position: relative;
+    top: -5px;
+    left: 60px;
+}
+.main > div > div:first-child > div > div > div > p:nth-child(2) {
+    position: relative;
+    top: -5px;
+    left: 20px;
+}
+.main > div > div:last-child > div > h2{
+    margin-top: 41px;
+    margin-left: 40px;
+    color: #333333;
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.RP{
+    margin-top: 50px;
+    width: 360px;
+    height: 430px;
+    box-shadow: 0 0 25px #f0f0f0;
+    border: 1px solid #dcdcdc;
+    background-color: #ffffff;
+}
+.catagory
+{
+    margin-top: 50px;
+    /* Style for "bg" */
+    width: 360px;
+    height: 327px;
+    box-shadow: 0 0 25px #f0f0f0;
+    border: 1px solid #dcdcdc;
+    background-color: #ffffff;
+}
+.PT{
+    /* Style for "bg" */
+    width: 360px;
+    height: 242px;
+    box-shadow: 0 0 25px #f0f0f0;
+    border: 1px solid #dcdcdc;
+    background-color: #ffffff;
+    margin-top: 50px;
+}
