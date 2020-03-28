@@ -1,0 +1,114 @@
+
+.main > div{
+    top: 80px;
+    position: relative;
+    margin: 0 auto;
+    display: inline-flex;
+}
+.nav-faq
+{
+    position: relative;
+    margin-right: 127px !important;
+}
+.nav-faq > ol {
+    width: 360px;
+    height: 350px;
+    border-radius: 5px;
+    border: 1px solid #dcdcdc;
+    text-align: left;
+}
+
+.nav-faq > ol > li {
+    height: 53px;
+    padding-left: 30px;
+    margin-top: 0;
+    padding-top: 17px;
+    color: #333333;
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+}
+.nav-faq > ol > li:not(:last-child) {
+    border-bottom: 1px solid #dcdcdc;
+}
+.nav-faq > ol > li:hover {
+    height: 55px;
+    border-radius: 5px;
+    margin-top: 0;
+    padding-top: 15px;
+    color: #ffffff;
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    background-color: #0f7bff;
+}
+.info
+{
+
+    position: relative;
+    display: inline-list-item;
+    margin: 0 auto;
+    text-align: left;
+}
+.info  > h3 {
+    /* Style for "How to upl" */
+    margin-bottom: 34px;
+    height: 23px;
+    color: #333333;
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.info  > p {
+    /* Style for "Lorem ipsu" */
+    margin-bottom: 34px;
+    width: 643px;
+    color: #929292;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.info > div > span{
+    /* Style for "Help This" */
+    width: 128px;
+    height: 18px;
+    color: #333333;
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36px;
+    margin-right: 37px;
+}
+.info > div > button{
+    width: 70px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: 1px solid #0f7bff;
+    color: #0f7bff;
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 500;
+}
+.info > div > button:hover{
+    width: 70px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: #0f7bff;
+    color: #ffffff;
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 500;
+}
+.info > div > button:last-child{
+    margin-left: 15px;
+}
+footer
+{
+    top: 1594px;
+}
