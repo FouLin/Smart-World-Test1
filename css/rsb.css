@@ -238,7 +238,7 @@ nav {
     background-color: #ffffff;
 }
 
-.catagory > ol > li > a{
+.catagory > ol > li > a {
     margin: 0;
     color: #929292;
     font-family: Quicksand;
@@ -247,17 +247,21 @@ nav {
     line-height: 27px;
 
 }
-.catagory > ol > li{
+
+.catagory > ol > li {
     margin-left: 40px;
 }
-.catagory > ol{
+
+.catagory > ol {
     margin-top: 0;
 }
-.catagory > ol > li:not(:last-child){
+
+.catagory > ol > li:not(:last-child) {
     padding-bottom: 15px;
     border-bottom: 1px solid #dcdcdc;
 }
-.catagory > ol > li > a:hover{
+
+.catagory > ol > li > a:hover {
     color: #0f7bff;
     font-family: Quicksand;
     font-size: 16px;
@@ -302,8 +306,7 @@ nav {
     line-height: 28px;
 }
 
-.next
-{
+.next {
     margin: 0 !important;
 }
 
@@ -311,8 +314,8 @@ nav {
 .main > div > div:first-child > .num > div:hover {
     background-color: #ffffff;
 }
-footer
-{
+
+footer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -323,18 +326,18 @@ footer
     background-color: #f5fcfd;
     top: 2700px;
 }
-footer > div > div:first-child > div
-{
+
+footer > div > div:first-child > div {
     text-align: left;
 }
-footer > div > div:first-child > div > h1
-{
+
+footer > div > div:first-child > div > h1 {
     margin: 0;
     padding: 0;
     left: 0;
 }
-footer > div > div:first-child > div > h3
-{
+
+footer > div > div:first-child > div > h3 {
     /* Style for "Company" */
     color: #333333;
     font-family: Quicksand;
@@ -353,53 +356,57 @@ footer > div > div:first-child > div > p {
     font-weight: 400;
     line-height: 27px;
 }
-footer > div:first-child{
+
+footer > div:first-child {
     position: relative;
     margin: 130px auto 0;
     display: inline-flex;
 
 }
-footer > div > div:first-child
-{
+
+footer > div > div:first-child {
 
     display: flex;
 }
-footer > div > div:first-child > div:not(:first-child){
+
+footer > div > div:first-child > div:not(:first-child) {
     margin-left: 128px;
 }
+
 footer > div > div:first-child > div > ol > li > a {
     margin: 0;
 }
-ol
-{
+
+ol {
     margin-top: 36px;
     margin-left: 0;
     padding: 0;
     list-style-type: none;
 }
-li{
+
+li {
     margin-top: 20px;
 }
-.RP > div
-{
+
+.RP > div {
     display: inline-flex;
 }
-.RP > div
-{
+
+.RP > div {
     margin-left: 30px;
     text-align: left;
 }
-.RP > div
-{
+
+.RP > div {
     margin-bottom: 31px;
 }
-.RP > div > div
-{
+
+.RP > div > div {
     margin-left: 30px;
     text-align: left;
 }
-.RP > div > div > a
-{
+
+.RP > div > div > a {
     margin: 0;
     width: 178px;
     height: 14px;
@@ -409,11 +416,12 @@ li{
     line-height: 27px;
     color: #333333;
 }
-footer{
+
+footer {
     display: flex;
 }
-.RP > div > div > a:hover
-{
+
+.RP > div > div > a:hover {
     margin: 0;
     width: 178px;
     height: 14px;
@@ -423,33 +431,35 @@ footer{
     font-weight: 500;
     line-height: 27px;
 }
-footer > div:last-child > div
-{
+
+footer > div:last-child > div {
     position: relative;
     display: inline-flex;
 
 }
-footer > div:last-child{
+
+footer > div:last-child {
     position: relative;
     top: 95px;
     width: 100%;
     margin: 0 auto;
     border-top: 1px #dcdcdc solid;
 }
-footer > div:last-child > div > p{
+
+footer > div:last-child > div > p {
     height: 16px;
     position: relative;
     top: 30px;
     text-align: left;
 }
 
-footer > div:last-child > div > a:last-child{
+footer > div:last-child > div > a:last-child {
     text-align: right;
     margin-top: 25px;
     margin-left: 20em;
 }
-.detal_post
-{
+
+.detal_post {
     /* Style for "Place Imag" */
     width: 750px;
     height: 330px;
@@ -457,7 +467,8 @@ footer > div:last-child > div > a:last-child{
     top: 50px;
 
 }
-.Quote > p{
+
+.Quote > p {
     /* Style for "There’s su" */
     width: 516px;
     height: 70px;
@@ -468,34 +479,49 @@ footer > div:last-child > div > a:last-child{
     line-height: 27px;
     margin: 46px auto 46px;
 }
-.Quote
-{
-    box-shadow: 0 0 0px rgba(0, 0, 0, 0)!important;
+
+.Quote {
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0) !important;
     position: relative;
     background: url("../img/Forma_12.png") left top no-repeat;
     width: 100%;
-    height: 200px!important;
+    height: 200px !important;
 
 }
-.share{
-    box-shadow: 0 0 0px rgba(0, 0, 0, 0)!important;
+
+.share {
+    text-align: center;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0) !important;
     border-top: 1px #dcdcdc solid;
     border-bottom: 1px #dcdcdc solid;
     border-radius: 0 !important;
 
 }
-.share_soc{
-    /* Style for "      " */
+
+.share_soc {
+    margin-left: 15px;
+    position: relative;
+    top: 5px;
     width: 98px;
     height: 15px;
-    background: url("../img/2223.png");
+    color: #929292;
+    font-family: "Font Awesome 5 Brands Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    /* Text style for "" */
+    background: url("../img/2223.png") no-repeat !important;
 }
-.share
-{
+
+.share > div:nth-child(2) {
+    position: relative;
+    left: 15.5em;
+    margin-top: 55px;
     display: inline-flex;
+    width: 100%;
 }
-.share > p > span
-{
+
+.share > div > p > span {
     /* Style for "Awards" */
     padding: 9px 18px 8px 18px;
     color: #0f7bff;
@@ -506,18 +532,18 @@ footer > div:last-child > div > a:last-child{
     border-radius: 20px;
     border: 1px solid #0f7bff;
 }
-.share > p
-{
+
+.share > div > p {
     margin-right: 15px;
     margin-top: 57px;
-    color: #333333;
+    color: #333333 !important;
     font-family: Quicksand;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 27px;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 27px !important;
 }
-.share > p:last-child
-{
+
+.share > div > span {
     /* Style for "Share:" */
     width: 47px;
     height: 12px;
@@ -527,6 +553,74 @@ footer > div:last-child > div > a:last-child{
     font-weight: 500;
     line-height: 27px;
     position: relative;
-    left: 50em;
 }
 
+.btn_share {
+    background-image: none !important;
+    position: absolute;
+    left: -28em;
+    top: 5em;
+}
+
+.btn_share > button {
+    width: 165px;
+    height: 50px;
+    padding: 0;
+}
+
+form > h2 {
+    margin-top: 50px;
+    /* Style for "Leave a Co" */
+    color: #333333;
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+form {
+    text-align: right;
+}
+
+form > input {
+    border: 1px solid #dcdcdc;
+}
+
+form > input:not(:last-child) {
+    padding-left: 30px;
+    width: 330px;
+    height: 60px;
+    border-radius: 5px;
+
+}
+
+#text {
+    position: relative;
+    margin-right: 21px !important;
+}
+
+form > textarea {
+    /* Style for "bg" */
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-top: 30px;
+    width: 720px;
+    height: 130px;
+    border-radius: 5px;
+    border: 1px solid #dcdcdc;
+}
+
+form > input:last-child {
+    /* Style for "bg" */
+    margin-top: 30px;
+    width: 165px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #0f7bff;
+    color: #ffffff;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    cursor: pointer;
+}

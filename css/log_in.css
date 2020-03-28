@@ -1,0 +1,18 @@
+form > p > a:first-child
+{
+    margin-right: 11em;
+}
+form > p > a {
+    /* Style for "Forgot Pas" */
+    width: 99px;
+    height: 13px;
+    color: #0f7bff;
+    font-family: Quicksand;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 27px;
+}
+form > p > a:hover
+{
+    color: #929292;
+}

@@ -1,0 +1,90 @@
+.nav-bar
+{
+    border-bottom: 0px !important;
+}
+.sign_up{
+    position: absolute;
+    text-align: center;
+    height: 1030px;
+    width: 100%;
+}
+.sign_up > div
+{
+
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.sign_up > div > div > h2
+{
+    margin-top: 130px;
+    text-align: center;
+}
+footer
+{
+    top: 1136px !important;
+    position: absolute;
+}
+h2{
+    color: #333333;
+    font-family: Quicksand;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 36px;
+}
+.sign_up > div > div
+{
+    width: 731px;
+    height: 43px;
+}
+.sign_up > div > p{
+    /* Style for "Lorem ipsu" */
+    width: 200px;
+    color: #929292;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.fac_tw > input:first-child{
+    margin-right: 30px;
+}
+.fac_tw > input{
+    width: 165px;
+    height: 55px;
+    border-radius: 5px;
+    border: 1px solid #dcdcdc;
+    color: #ffffff;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.fac_tw > input:first-child{
+    background-color: #3b5999;
+}
+.fac_tw > input:last-child{
+    background-color: #55acee;
+}
+.fac_tw{
+    margin-top: 47px;
+    margin-bottom: 50px;
+}
+form > p > a{
+    margin: 0;
+}
+form
+{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center!important;
+}
+form > input{
+    margin: 15px auto 15px;
+}
