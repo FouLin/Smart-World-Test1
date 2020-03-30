@@ -94,10 +94,12 @@ nav > a:last-child:hover {
     text-align: center;
     top: -230px;
 }
-button:first-child{
+
+button:first-child {
     margin-right: 30px;
 }
-button{
+
+button {
     width: 165px;
     height: 50px;
     border-radius: 25px;
@@ -110,6 +112,7 @@ button{
     font-weight: 700;
     line-height: 27px;
 }
+
 button:hover {
     color: #ffffff;
     font-family: Quicksand;
@@ -122,10 +125,6 @@ button:hover {
     background-color: #0f7bff;
     border: 1px solid #0f7bff;
 }
-
-
-
-
 
 
 .Shape_1 > p {
@@ -215,6 +214,7 @@ h4, h2, h3, h5 {
     position: relative;
     background-size: cover;
     background-image: url(../img/Image1.png);
+
 }
 
 .img2 {
@@ -971,3 +971,283 @@ html {
     line-height: 27px;
 }
 
+@media (max-width: 768px) {
+    h1 {
+        margin: 0 auto !important;
+        left: 0px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    * {
+        margin: 0 auto;
+    }
+
+    .Shape_1 {
+        background-image: none;
+        height: 100%;
+    }
+
+    .shape > div {
+        background-image: none;
+        width: 100%;
+    }
+
+    p {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 27px;
+        margin-top: 1.75rem;
+    }
+
+    button {
+        margin: 0 !important;
+    }
+
+    .bg {
+        height: 100%;
+    }
+
+    .bg > div {
+        display: block;
+    }
+
+    .bg > div > div {
+        margin: 20px auto 15px !important;
+        width: 100%;
+    }
+
+    .bg {
+        height: 100%;
+        top: 600px;
+    }
+
+    .about {
+        position: static;
+    }
+
+    .sd {
+        display: none;
+    }
+
+    .img1 {
+        background-size: 100% auto;
+        width: 300px;
+        height: 300px;
+    }
+
+    .img2 {
+        background-size: 100% auto;
+        width: 300px;
+        height: 300px;
+        top: -230px;
+    }
+
+    .about > div {
+        display: block;
+    }
+
+    .about > div:first-child > div:last-child {
+        text-align: center;
+        top: 0px;
+    }
+
+    .about > div > div > p {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about > div > div > a {
+        top: 0px;
+    }
+
+    .about > div:last-child > div:first-child {
+        top: 350px;
+    }
+
+    .about > div > div {
+        text-align: center;
+    }
+
+    .svg-line {
+        display: none;
+    }
+
+    .Work > p {
+        width: 100%;
+        height: 97px;
+    }
+
+    .Work > div {
+        display: block;
+    }
+
+
+
+    .Work {
+        height: 1100px;
+        z-index: 2;
+    }
+
+    .caa > h4{
+        position: relative;
+        top: -25px;
+    }
+    .caa > p {
+        position: relative;
+        top: 100px;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .ce > h4{
+        position: relative;
+        top: -25px;
+    }
+    .ce{
+        margin: 0 auto;
+    }
+    .ce > p {
+        position: relative;
+        top: 100px;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .sr > h4{
+        position: relative;
+        top: -25px;
+    }
+    .sr > p {
+        position: relative;
+        top: 100px;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .caa, .ce, .sr {
+        height: 200px;
+    }
+
+    .sr > h4 {
+        margin: 0 !important;
+    }
+    .ce > h4 {
+        margin: 0 !important;
+    }
+    .Work > div > div{
+        margin-top: 2em;
+    }
+    .pp {
+        top: 250em;
+    }
+    .pp > div{
+        display: block;
+        margin-top: 0;
+    }
+    .pp > div > div:first-child > h3{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .standard{
+        margin: 5px auto;
+    }
+    .pp > div > div:not(:first-child){
+        margin-top: 2em;
+        width: 100%;
+        height: 700px;
+    }
+    .pp_but{
+        position: relative;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+    .btn_shape_1 > button{
+        margin: .5em auto !important;
+    }
+    .LNFU{
+        top: 310em;
+    }
+    .LNFU > p{
+        width: 100%;
+    }
+    .news {
+        display: block;
+    }
+    .news > div:first-child > h4 {
+        position: relative;
+        width: 100%;
+        color: #0f7bff;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 36px;
+    }
+    .news > div:first-child > img{
+        margin-top: 3em;
+        width: 100%;
+    }
+    .news > div:last-child {
+        display: none;
+         width: 100%;
+    }
+    .news > div:first-child {
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+    }
+    .M-55{
+        display: none;
+    }
+    .M-55 > div > img
+    {
+        display: none;
+    }
+    .T-30D{
+        top: 360em;
+    }
+    .T-30D > div {
+          text-align: center;
+         position: relative;
+         margin: 0 auto;
+         display: block;
+     }
+
+    .pp > div > div:first-child{
+        width: 320px;
+    }
+
+    .Montnly {
+        width: 155px;
+    }
+    .Yearly{
+        width: 155px;
+    }
+
+    .T-30D > div > div:first-child {
+          position: relative;
+          top: 90px;
+           margin-right: 0;
+      }
+    .T-30D > div > div:first-child > h3
+    {
+    height: 100%;
+    }
+    .footer{
+        top: 381em;
+    }
+    .footer > div > div:last-child
+    {
+        display: none;
+    }
+    .footer > div > div:first-child > div > input:first-child{
+        width: 174px;
+    }
+    .footer > div > div:first-child > div > input:last-child{
+        width: 84px;
+    }
+}
