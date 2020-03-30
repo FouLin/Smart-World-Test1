@@ -978,7 +978,29 @@ html {
     }
 
     nav {
-        display: none;
+        display: flex;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        top: 100px !important;
+        margin: 0;
+        z-index: 999999!important;
+    }
+
+    nav > a {
+        margin-right: 5px !important;
+        margin-top: 0em!important;
+        margin-left: 0em!important;
+    }
+
+    nav > a:last-child {
+
+        text-decoration: none;
+        color: #929292;
+        padding: 0;
+        background-color: rgba(0, 0, 0, 0);
+        font-weight: normal;
+        line-height: normal;
     }
 
     * {
@@ -1086,16 +1108,16 @@ html {
     }
 
 
-
     .Work {
         height: 1100px;
         z-index: 2;
     }
 
-    .caa > h4{
+    .caa > h4 {
         position: relative;
         top: -25px;
     }
+
     .caa > p {
         position: relative;
         top: 100px;
@@ -1103,13 +1125,16 @@ html {
         height: auto;
         margin: 0 auto;
     }
-    .ce > h4{
+
+    .ce > h4 {
         position: relative;
         top: -25px;
     }
-    .ce{
+
+    .ce {
         margin: 0 auto;
     }
+
     .ce > p {
         position: relative;
         top: 100px;
@@ -1117,10 +1142,12 @@ html {
         height: auto;
         margin: 0 auto;
     }
-    .sr > h4{
+
+    .sr > h4 {
         position: relative;
         top: -25px;
     }
+
     .sr > p {
         position: relative;
         top: 100px;
@@ -1136,49 +1163,62 @@ html {
     .sr > h4 {
         margin: 0 !important;
     }
+
     .ce > h4 {
         margin: 0 !important;
     }
-    .Work > div > div{
+
+    .Work > div > div {
         margin-top: 2em;
     }
+
     .pp {
         top: 250em;
     }
-    .pp > div{
+
+    .pp > div {
         display: block;
         margin-top: 0;
     }
-    .pp > div > div:first-child > h3{
+
+    .pp > div > div:first-child > h3 {
         width: 100%;
         margin: 0 auto;
         text-align: center;
     }
-    .standard{
+
+    .standard {
         margin: 5px auto;
     }
-    .pp > div > div:not(:first-child){
+
+    .pp > div > div:not(:first-child) {
         margin-top: 2em;
         width: 100%;
         height: 700px;
     }
-    .pp_but{
+
+    .pp_but {
         position: relative;
         margin-top: 2em;
         margin-bottom: 2em;
     }
-    .btn_shape_1 > button{
+
+    .btn_shape_1 > button {
         margin: .5em auto !important;
     }
-    .LNFU{
+
+    .LNFU {
         top: 310em;
     }
-    .LNFU > p{
+
+    .LNFU > p {
         width: 100%;
     }
+
     .news {
         display: block;
     }
+
     .news > div:first-child > h4 {
         position: relative;
         width: 100%;
@@ -1187,67 +1227,77 @@ html {
         font-weight: 500;
         line-height: 36px;
     }
-    .news > div:first-child > img{
+
+    .news > div:first-child > img {
         margin-top: 3em;
         width: 100%;
     }
+
     .news > div:last-child {
         display: none;
-         width: 100%;
+        width: 100%;
     }
+
     .news > div:first-child {
         width: 100%;
         text-align: center;
         margin-right: 0;
     }
-    .M-55{
+
+    .M-55 {
         display: none;
     }
-    .M-55 > div > img
-    {
+
+    .M-55 > div > img {
         display: none;
     }
-    .T-30D{
+
+    .T-30D {
         top: 360em;
     }
-    .T-30D > div {
-          text-align: center;
-         position: relative;
-         margin: 0 auto;
-         display: block;
-     }
 
-    .pp > div > div:first-child{
+    .T-30D > div {
+        text-align: center;
+        position: relative;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .pp > div > div:first-child {
         width: 320px;
     }
 
     .Montnly {
         width: 155px;
     }
-    .Yearly{
+
+    .Yearly {
         width: 155px;
     }
 
     .T-30D > div > div:first-child {
-          position: relative;
-          top: 90px;
-           margin-right: 0;
-      }
-    .T-30D > div > div:first-child > h3
-    {
-    height: 100%;
+        position: relative;
+        top: 90px;
+        margin-right: 0;
     }
-    .footer{
+
+    .T-30D > div > div:first-child > h3 {
+        height: 100%;
+    }
+
+    .footer {
         top: 381em;
     }
-    .footer > div > div:last-child
-    {
+
+    .footer > div > div:last-child {
         display: none;
     }
-    .footer > div > div:first-child > div > input:first-child{
+
+    .footer > div > div:first-child > div > input:first-child {
         width: 174px;
     }
-    .footer > div > div:first-child > div > input:last-child{
+
+    .footer > div > div:first-child > div > input:last-child {
         width: 84px;
     }
 }

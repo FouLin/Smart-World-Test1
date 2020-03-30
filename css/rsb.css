@@ -70,7 +70,7 @@ nav {
 .OBP > div > div:first-child {
     position: relative;
     top: 110px;
-    margin-right: 25em;
+    margin-right: 15em;
 }
 
 .main {
@@ -714,6 +714,7 @@ form > input:last-child {
 
     .main > div > div:first-child > div {
         display: block;
+        height: 500px;
     }
 
     .share > div > span {
@@ -750,6 +751,8 @@ form > input:last-child {
     }
 
     .main > div > div:first-child > div > div > div {
+        position: relative;
+        top: 1.5em;
         display: flex;
     }
 
@@ -782,10 +785,61 @@ form > input:last-child {
     footer > div:last-child {
         display: none;
     }
-    footer > div > div:first-child > div{
+
+    footer > div > div:first-child > div {
         text-align: center;
     }
-    footer > div > div:first-child > div > p{
+
+    footer > div > div:first-child > div > p {
         width: 100%;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .main > div > div:first-child {
+        margin-right: 0;
+    }
+
+    .main > div > div:first-child > div > div > h3 {
+        width: 100%;
+        height: 23px;
+    }
+
+    .main > div > div:first-child > div > div > div > p {
+        margin: 0;
+    }
+
+    .main > div > div:first-child > div > div > div > p:nth-child(2) {
+        left: 70px;
+        top: -4px;
+    }
+
+    .main > div > div:first-child > div > div > div > p:last-child {
+        left: 160px;
+    }
+    .main > div > div:first-child > div > div > a
+    {
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+    }
+    .main > div > div:first-child > div > div > {
+        margin: 0 auto!important;
+    }
+    .main > div > div:first-child > div > div > p{
+        text-align: center;
+        height: 120px;
+    }
+    footer{
+        top: 3400px;
+    }
+    .num
+    {
+        display: flex !important;
+    }
+    .num > div > p{
+        margin-top: 0!important;
     }
 }
