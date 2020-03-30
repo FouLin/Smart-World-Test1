@@ -88,3 +88,12 @@ form
 form > input{
     margin: 15px auto 15px;
 }
+@media (max-width: 768px){
+    .fac_tw > input:first-child{
+        margin: 0;
+    }
+    footer
+    {
+        top: 1250px !important;
+    }
+}

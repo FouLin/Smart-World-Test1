@@ -16,3 +16,8 @@ form > p > a:hover
 {
     color: #929292;
 }
+@media (max-width: 768px){
+    footer{
+        top: 1150px !important;
+    }
+}

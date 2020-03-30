@@ -560,10 +560,12 @@ footer > div:last-child > div > a:last-child {
     left: -28em;
     top: 5em;
 }
-.btn_share > button:first-child{
+
+.btn_share > button:first-child {
     margin-right: 30px;
 }
-.btn_share > button{
+
+.btn_share > button {
     width: 165px;
     height: 50px;
     border-radius: 25px;
@@ -576,6 +578,7 @@ footer > div:last-child > div > a:last-child {
     font-weight: 700;
     line-height: 27px;
 }
+
 .btn_share > button:hover {
     color: #ffffff;
     font-family: Quicksand;
@@ -644,4 +647,145 @@ form > input:last-child {
     font-weight: 700;
     line-height: 27px;
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .OBP > div > div:last-child {
+        display: none;
+    }
+
+    .OBP > div > div:first-child {
+        top: 0px;
+        margin: 0 auto;
+    }
+
+    .OBP > div > div:first-child > p, h2 {
+        text-align: center;
+    }
+
+    .OBP > div > div:first-child > h2 {
+        line-height: normal;
+    }
+
+    .main {
+        top: 400px;
+    }
+
+    .main > div {
+        display: block;
+    }
+
+    .detal_post {
+        width: 100%;
+    }
+
+    .detal_post > img {
+        width: 100%;
+    }
+
+    .Quote {
+        width: 100% !important;
+    }
+
+    .main > div > div:last-child > div:first-child {
+        top: -430px;
+    }
+
+    .main > div > div:last-child > div > input:first-child {
+        width: 215px;
+    }
+
+    form > textarea {
+        width: 100%;
+    }
+
+    .main > div > div:last-child {
+        display: none;
+    }
+
+    .main > div > div:first-child > div {
+        width: 100%;
+    }
+
+    .share > div:nth-child(2) {
+        left: 0px;
+        position: relative;
+    }
+
+    .main > div > div:first-child > div {
+        display: block;
+    }
+
+    .share > div > span {
+        margin: 0;
+    }
+
+    .Quote > p {
+        width: 100%;
+        padding-top: 4em;
+    }
+
+    .main > div > div:first-child > div > div > div {
+        margin: 0;
+    }
+
+    .main > div > div:first-child > div > div:last-child {
+        margin-left: 0;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .main > div > div:first-child > div > div > p {
+        height: 32px;
+    }
+
+    .share > div:last-child {
+        right: 0;
+        width: 150px;
+    }
+
+    .main > div > div:first-child > div > div > div {
+        display: block;
+        left: 0;
+    }
+
+    .main > div > div:first-child > div > div > div {
+        display: flex;
+    }
+
+    .btn_share > button {
+        width: 150px;
+        margin-left: 8px !important;
+    }
+
+    #text {
+        margin-right: 0px !important;
+    }
+
+    form > input:not(:last-child) {
+        width: 280px !important;
+    }
+
+    form > textarea {
+        width: 280px !important;
+    }
+
+    footer > div {
+        width: 100%;
+        display: block;
+    }
+
+    footer > div > div:first-child > div:not(:first-child) {
+        display: none;
+    }
+
+    footer > div:last-child {
+        display: none;
+    }
+    footer > div > div:first-child > div{
+        text-align: center;
+    }
+    footer > div > div:first-child > div > p{
+        width: 100%;
+    }
 }
