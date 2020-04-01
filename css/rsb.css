@@ -678,6 +678,9 @@ form > input:last-child {
     .detal_post {
         width: 100%;
     }
+    h3{
+        text-align: center!important;
+    }
 
     .detal_post > img {
         width: 100%;
