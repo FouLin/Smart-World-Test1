@@ -148,6 +148,9 @@ footer
     top: 1594px;
 }
 @media (max-width: 768px){
+    .OBP{
+        height: 300px;
+    }
     .nav-faq{
         display: none;
     }
