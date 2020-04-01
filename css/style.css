@@ -1274,6 +1274,12 @@ html {
     .Yearly {
         width: 155px;
     }
+    .Montnly:hover {
+        width: 153px;
+    }
+    .Yearly:hover {
+        width: 153px;
+    }
 
     .T-30D > div > div:first-child {
         position: relative;
